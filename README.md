@@ -82,7 +82,7 @@ static void common_btn_evt_cb(void *arg)
 
 回调函数，会传入md_button_t 对象，包含了按键的id，触发的事件以及重复次数
 
-![image-20230323000838721](figures\按键事件回调.png)
+<img src="figures\按键事件回调.png" style="zoom:90%;" />
 
 ## 代码说明
 
