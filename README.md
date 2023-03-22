@@ -28,7 +28,7 @@ static md_button_t user_button[USER_BUTTON_MAX];
 
 ### 按键属性配置
 
-`user_button_init();` 初始化代码如下所示：
+`test_button_init();` 初始化代码如下所示：
 
 ```C
 static void test_button_init(void)
@@ -82,7 +82,7 @@ static void common_btn_evt_cb(void *arg)
 
 回调函数，会传入md_button_t 对象，包含了按键的id，触发的事件以及重复次数
 
-![image-20230323000838721](E:\freetime_works\md_button\figures\按键事件回调.png)
+![image-20230323000838721](figures\按键事件回调.png)
 
 ## 代码说明
 
@@ -147,7 +147,7 @@ uint32_t md_button_scan(void);
 
 ## 支持
 
-<img src="E:/LiJiaJia/LizCubic/repo/LizCubic/doc/img/赞赏.png" style="zoom:50%;" /> 
+<img src="figures\赞赏.png" style="zoom:60%;" /> 
 
 如果 MdButton 解决了你的问题，不妨扫描上面二维码请我 **喝杯咖啡**~ 
 
